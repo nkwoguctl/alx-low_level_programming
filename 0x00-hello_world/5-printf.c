@@ -1,7 +1,10 @@
 #include<stdio.h>
 
-int main(void){
+int main(void)
 
-	printf("with proper grammer, but the outcome is apiece of art,\n");
+{
+
+	 /* This prints out the string placed in the print function arguement*/
+	printf( "with proper grammar, but the outcome is a piece of art,\n" );
 	return(0);
 }

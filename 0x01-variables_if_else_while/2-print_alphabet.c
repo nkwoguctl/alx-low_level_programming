@@ -1,4 +1,4 @@
-#include<stidlib.h>
+#include<stdlib.h>
 #include<stdio.h>
 /* Prints out alphabet*/
 int main(void)

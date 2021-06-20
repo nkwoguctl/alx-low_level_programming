@@ -7,15 +7,14 @@ int main(void)
 {
 	
 	int i;
+	
+	char charValue;
 
 	for (i = 97; i <= 122; i++)
        {
-	        if (i == 101 || i == 113)
-	  	{		
+	        if (i == 101 || i == 113)	
 			continue;
-
-                }
-                char charValue = i;
+                charValue = i;
 		putchar(charValue);
        }
        putchar('\n');	

@@ -4,6 +4,10 @@
 int main(void)
 {
 	int i;
-	for(i = 122; i >96; i--)
-		putchar("%c",i);
+	for(i = 97; i <=122; i++)
+       {
+                char charValue = i;
+		putchar(charValue);
+       }			
+       return(0);
 }

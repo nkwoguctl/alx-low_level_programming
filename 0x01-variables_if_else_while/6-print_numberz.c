@@ -8,12 +8,11 @@ int main(void)
 	
 	int i;
 
-	char char_num;
-
 	for (i = 0; i < 10; i++)
        {
-                char_num = i + '0';
-		putchar(char_num);
+                int num;
+		num = i + '0';
+		putchar(num);
        }
        putchar('\n');	
        return(0);

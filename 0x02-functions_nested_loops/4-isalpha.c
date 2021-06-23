@@ -1,11 +1,11 @@
 #include "holberton.h"
 
 /**
-*_islower - function to check for lowercase character
-*@c: print alphbet
-*Return: 1 if c is lowercase, otherwise 0
-*/
-
+ * _isalpha - Checks if a character is alphabetic.
+ * @c: Variable Input.
+ *
+ * Return: 1 if character letter and lowercase or uppercase, 0 otherwise.
+ */
 int _isalpha(int c)
 {
 

@@ -8,5 +8,6 @@ void _puts(char *s)
                 _putchar(*t);
 
         }
+	_putchar('\n');
 }
 

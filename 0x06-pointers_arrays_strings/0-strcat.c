@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include <stdio.h>
 
 char *_strcat(char *dest, char *src)
 {
@@ -16,8 +17,8 @@ char *_strcat(char *dest, char *src)
 	for (k = 0; k <= i-1; k++)
 		str[k] = dest[k];
 	for (k = 0; k <= j; k++)
-		str[i + k] = src[j];
-
+		str[i + k] = src[k];
+        
 	return p;
 }
 
